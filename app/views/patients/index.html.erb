@@ -1,0 +1,18 @@
+<table class='patients'>
+  <thead>
+    <tr>
+      <th>Patient</th>
+      <th>Weeks</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @patients.each do |patient| %>
+      <tr>
+        <td><%= patient.name %></td>
+        <td></td>
+        <td></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
